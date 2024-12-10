@@ -13,13 +13,19 @@ let costoBiglietto = (km * prezzoKm);
 let offerta = "Biglietto Standard";
 
 if (eta === "minorenne") {
-    costoBiglietto * 0.8; 
+    costoBiglietto= codiceBiglietto * 0.8; 
     offerta = "Sconto Minorenne";
 
 } else if (eta === "over65") {
-    costoBiglietto * 0.6; 
+    costoBiglietto= codiceBiglietto * 0.6; 
     offerta = "Sconto Over 65";
 }
+
+// GENERAZIONE CARROZZA E CODICE BIGLIETTO//
+const carrozza = Math.floor(Math.random() * 10) + 1; 
+const codiceBiglietto = Math.floor(Math.random() * 90000) + 10000; 
+
+// DATI DEL BIGLIETTP//
 
 
 
