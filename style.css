@@ -1,36 +1,47 @@
+/* Stile generale */
 body {
+    font-family: Arial, sans-serif;
     background-color: #B91550;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
-h1 {color: white;
+/* Titolo principale */
+h1 {
     text-align: center;
-
+    margin-top: 20px;
 }
 
-
-
+/* Container 1 (form di input) */
 .container-1 {
     width: 600px;
-    height: 150px;
-    padding: 5%;
+    padding: 20px;
     background-color: white;
-    align-items: center;
-    display: flex;
-    position: sticky;
-    left: 25%;
+    margin: 20px auto;
+    color: black;
     border-radius: 10px;
-   
 }
+
+.container-1 label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.container-1 button {
+    background-color: #B91550;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
 
 .container-2 {
     width: 600px;
-    height: 150px;
-    padding: 5%;
+    padding: 20px;
     background-color: white;
-    align-items: center;
-    display: flex;
-    position: sticky;
-    left: 25%;
-    margin-top: 5%;
+    margin: 20px auto;
+    color: black;
     border-radius: 10px;
+    text-align: center;
 }
