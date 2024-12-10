@@ -7,7 +7,7 @@ body {
     color: white;
 }
 
-/* Titolo principale */
+/* Titoli */
 h1 {
     text-align: center;
     margin-top: 20px;
@@ -35,7 +35,7 @@ h1 {
     cursor: pointer;
 }
 
-
+/* Container 2 (Risultato del biglietto)*/
 .container-2 {
     width: 600px;
     padding: 20px;
