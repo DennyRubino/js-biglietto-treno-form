@@ -1,0 +1,17 @@
+body {
+    background-color: #B91550;
+}
+
+
+
+
+.container {
+    width: 400px;
+    height: 150px;
+    padding: 10%;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    position: sticky;
+    left: 25%;
+}
